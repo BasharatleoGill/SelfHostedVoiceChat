@@ -1,0 +1,21 @@
+# Test Checklist
+
+- Build Development Editor.
+- Build Shipping.
+- Confirm no generated `Binaries` or `Intermediate` folders are included in source handoff unless intentionally packaging binaries.
+- Check `Is Opus Available` returns true on Win64.
+- Check `Get Current Active Codec` returns Opus when `CodecMode=Auto`.
+- Listen server with two clients.
+- Dedicated server with two clients.
+- Join, speak, stop speaking.
+- Global voice routes to every valid receiver.
+- Proximity voice only routes inside configured range.
+- Team voice routes to same-team players.
+- Radio voice routes only to joined channel members.
+- Mute player locally.
+- Deafen local output.
+- Player disconnect destroys their voice actor.
+- Map travel clears old local runtime state.
+- No microphone / unsupported platform fails with clear logs.
+- Packet drop stats increment for oversized/rate-limited/invalid packets.
+- Confirm no references or dependencies on any third-party studied plugin.

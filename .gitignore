@@ -1,0 +1,20 @@
+# Unreal build output
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+.vs/
+*.sln
+*.slnx
+*.VC.db
+*.opensdf
+*.sdf
+*.suo
+
+# Local packaging and IDE files
+Packaged/
+Build/
+
+# OS files
+.DS_Store
+Thumbs.db
