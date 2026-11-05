@@ -53,3 +53,6 @@ bEnabled=true
 ## Audio devices
 
 Use `Get Audio Input Devices` and `Set Audio Input Device` to choose the microphone used by local capture. Use `Get Audio Output Devices` and `Set Audio Output Device` to choose the Unreal audio mixer's main output device. Unreal's built-in output swap changes the game's main audio output, so voice playback follows that device along with normal game audio.
+## Complete visual Blueprint guide
+
+Open [SelfHostedVoiceChat-CompleteGuide.html](SelfHostedVoiceChat-CompleteGuide.html) in any browser for the single-file setup guide, Blueprint-style node visuals, API reference, settings, routing diagrams, and troubleshooting.
